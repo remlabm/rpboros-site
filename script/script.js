@@ -1,0 +1,1 @@
+function getRandom(c,d){return((Math.floor(Math.random()*(d-c)))+c)}function clearInput(f,g,h){var f=$(f);var e=jQuery.trim(f.val());if(g=="focus"){if(e==h){f.val("")}}else{if(g=="blur"){if(e==""){f.val(h)}}}}function blockForm(c,d){if(d=="block"){$("#"+c).find(".block").block({message:false,overlayCSS:{opacity:"0.3"}})}else{$("#"+c).find(".block").unblock()}};
