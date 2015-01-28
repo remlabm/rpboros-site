@@ -1,755 +1,844 @@
 <!DOCTYPE html>
 <html lang="en-US" class="no-js">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no"/>
-<meta name="description" content="Rob Boros"/>
-<meta name="author" content="Rob Boros">
-<title>Rob Boros</title>
-<!-- Favicons -->
-<link rel="shortcut icon" href="img/ico-16.ico">
-<link rel="apple-touch-icon" href="img/ico-57.png" sizes="57x57">
-<link rel="apple-touch-icon" href="img/ico-72.png" sizes="72x72">
-<link rel="apple-touch-icon" href="img/ico-114.png" sizes="114x114">
-<link rel="apple-touch-icon" href="img/ico-144.png" sizes="144x144">
-<!-- List of Stylesheet -->
-<link type='text/css' href="css/normalize.css" rel="stylesheet">
-<link type='text/css' href="css/bootstrap.min.css" rel="stylesheet">
-<link type='text/css' href="css/font-awesome.min.css" rel="stylesheet">
-<link type='text/css' href="css/style.css" rel="stylesheet">
-<link type='text/css' href="css/style-responsive.css" rel="stylesheet">
-<!-- Google Font -->
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="Rob Boros"/>
+    <meta name="author" content="Rob Boros">
+    <title>Rob Boros</title>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/ico-16.ico">
+    <link rel="apple-touch-icon" href="img/ico-57.png" sizes="57x57">
+    <link rel="apple-touch-icon" href="img/ico-72.png" sizes="72x72">
+    <link rel="apple-touch-icon" href="img/ico-114.png" sizes="114x114">
+    <link rel="apple-touch-icon" href="img/ico-144.png" sizes="144x144">
+    <!-- List of Stylesheet -->
+    <link type='text/css' href="css/normalize.css" rel="stylesheet">
+    <link type='text/css' href="css/bootstrap.min.css" rel="stylesheet">
+    <link type='text/css' href="css/font-awesome.min.css" rel="stylesheet">
+    <link type='text/css' href="css/style.css" rel="stylesheet">
+    <link type='text/css' href="css/style-responsive.css" rel="stylesheet">
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="src/js/html5shiv.js"></script>
     <script src="src/js/respond.min.js"></script>
     <![endif]-->
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 </head>
 <body data-spy="scroll" data-target=".navbar">
 <!-- Pre-loader -->
 <div class="mask">
-	<div id="intro-loader">
-	</div>
+    <div id="intro-loader">
+    </div>
 </div>
 <!-- End Pre-loader -->
 <!-- Navbar -->
 <div class="navbar navbar-transparent navbar-fixed-top">
-	<div class="container">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#"><img class="logo" src="" alt=""></a>
-		</div>
-		<nav id="my-nav" class="navbar-collapse collapse" role="navigation">
-		<ul class="nav navbar-nav">
-			<li>
-			<a href="#home">Home</a>
-			</li>
-			<li>
-			<a href="#about">About</a>
-			</li>
-			<li>
-			<a href="#process">Process</a>
-			</li>
-			<li>
-			<a href="#clients">Clients</a>
-			</li>
-			<li>
-			<a href="#skill">Skills</a>
-			</li>
-			<li>
-			<a href="#experience">Resume</a>
-			</li>    
-			<li>
-			<a href="#contact">Contact</a>
-			</li>
-		</ul>
-		</nav>
-		<!--/.navbar-collapse -->
-	</div>
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img class="logo" src="" alt=""></a>
+        </div>
+        <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#process">Process</a>
+                </li>
+                <li>
+                    <a href="#clients">Clients</a>
+                </li>
+                <li>
+                    <a href="#skill">Skills</a>
+                </li>
+                <li>
+                    <a href="#experience">Resume</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <!--/.navbar-collapse -->
+    </div>
 </div>
 <!-- End Navbar -->
 <!-- Home Section -->
 <section id="home">
-<img id="cycle-loader" src="img/loader.gif" alt="loader"/>
-<div id="fullscreen-slider">
-	<!-- Slider image 1-->
-	<div class="slider-item">
-		<img src="images/homepage/9.jpg" alt="">
-	</div>
-	<!-- End Slider image 1-->
-	<!-- Slider image 2-->
-	<div class="slider-item">
-		<img src="images/homepage/pm.jpg" alt="">
-	</div>
-	<!-- End Slider image 2-->
-		<!-- Slider image 2-->
-	<div class="slider-item">
-		<img src="images/homepage/pm2.jpg" alt="">
-	</div>
-	<!-- End Slider image 2-->	
-	<!-- Slider image 2-->
-	<div class="slider-item">
-		<img src="images/homepage/gears.jpg" alt="">
-	</div>
-	<!-- End Slider image 2-->	
-	<!-- Slider image 2-->
-	<div class="slider-item">
-		<img src="images/homepage/lightbulb.jpg" alt="">
-	</div>
-	<!-- End Slider image 2-->
-	
-	
-</div>
-<div class="slide-content">
-	<div class="text-center">
-		<div class="header">
-			<div class="heading">
-				Welcome to my site
-			</div>
-			<div class="box-heading">
-				<div class="box-inner">
-					Rob Boros
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+    <img id="cycle-loader" src="img/loader.gif" alt="loader"/>
+
+    <div id="fullscreen-slider">
+        <!-- Slider image 1-->
+        <div class="slider-item">
+            <img src="images/homepage/9.jpg" alt="">
+        </div>
+        <!-- End Slider image 1-->
+        <!-- Slider image 2-->
+        <div class="slider-item">
+            <img src="images/homepage/pm.jpg" alt="">
+        </div>
+        <!-- End Slider image 2-->
+        <!-- Slider image 2-->
+        <div class="slider-item">
+            <img src="images/homepage/pm2.jpg" alt="">
+        </div>
+        <!-- End Slider image 2-->
+        <!-- Slider image 2-->
+        <div class="slider-item">
+            <img src="images/homepage/gears.jpg" alt="">
+        </div>
+        <!-- End Slider image 2-->
+        <!-- Slider image 2-->
+        <div class="slider-item">
+            <img src="images/homepage/lightbulb.jpg" alt="">
+        </div>
+        <!-- End Slider image 2-->
+
+
+    </div>
+    <div class="slide-content">
+        <div class="text-center">
+            <div class="header">
+                <div class="heading">
+                    Welcome to my site
+                </div>
+                <div class="box-heading">
+                    <div class="box-inner">
+                        Rob Boros
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-- Home Section -->
 <!-- About Section -->
 <section id="about" class="section-content bg1">
-<div class="container">
-	<div class="row">
-		<!-- Section Title -->
-		<div class="section-title item_bottom text-center">
-			<div>
-				<span class="fa fa-user fa-2x"></span>
-			</div>
-			<h1>About <span>Me</span></h1>
-		</div>
-		<!-- End Section Title -->
-	</div>
-	<div class="row">
-		<div class="col-md-4 text-center item_bottom">
-			<img src="images/rob1.jpg" class="img-center img-responsive" alt="My photo"/>
-			<!-- YOUR PHOTO -->
-			<div class="name-title">
-				<h2>Rob Boros</h2>
-				<!-- Your Name -->
-				<h5>PMP - CSM - CSPO</h5>
-				<!-- Your Designation -->
-			</div>
-		</div>
-		<div class="col-md-4 item_top">
-			<p class="quoteline">
-				When it's all said and done, will you have said more than you have done?
-			</p>
-			<p>
-				Hello, I'm a Program and Project Manager from Pittsburgh, PA, currently living in Southern California. I hold a PMP certification, am a Certified Scrum Product Owner, a Certified Scrum Master and have additional certificates for negotiation and Six Sigma.   
-			</p>
-			<p>
-				 I currently work at Esri, where I am a Project Manager responsible for the Custom Training Program and large strategic corporate projects. My current projects include a complete rebuild and rebranding of our software training platform, a digital motivation project designed to increase customer engagement through gamification and numerous customized training solution projects tailored to match customer needs.
-			</p>
-			<p>
-				 I enjoy being responsible for mentoring project coordinators, participating in the evaluation and interview process of potiential team members and learning from those around me.  I strongly believe that you get out of life what you put into it, so I always strive to better myself and those around me.   
-      <p class="text-right">
+    <div class="container">
+        <div class="row">
+            <!-- Section Title -->
+            <div class="section-title item_bottom text-center">
+                <div>
+                    <span class="fa fa-user fa-2x"></span>
+                </div>
+                <h1>About <span>Me</span></h1>
+            </div>
+            <!-- End Section Title -->
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center item_bottom">
+                <img src="images/rob1.jpg" class="img-center img-responsive" alt="My photo"/>
+                <!-- YOUR PHOTO -->
+                <div class="name-title">
+                    <h2>Rob Boros</h2>
+                    <!-- Your Name -->
+                    <h5>PMP - CSM - CSPO</h5>
+                    <!-- Your Designation -->
+                </div>
+            </div>
+            <div class="col-md-4 item_top">
+                <p class="quoteline">
+                    When it's all said and done, will you have said more than you have done?
+                </p>
 
-      </p>
-		</div>
-		<div class="col-md-4 item_bottom">
-		  <ul class="fa-ul">
-				<li><i class="fa fa-li fa-mobile"></i><strong>Phone</strong> : +1 805-242-6767</li>
-				<li><i class="fa fa-li fa-envelope-o"></i><strong>Email</strong> : rboros24@gmail.com</li>
-				<li><i class="fa fa-li fa-globe"></i><strong>Website</strong> : www.robboros.com</li>
-				<li><i class="fa fa-li fa-home"></i><strong>Address</strong> : 1685 Jade Moon Lane<br>Beaumont, CA 92223</li>
-			</ul>
-			
-			<div class="number-counters text-center new-line">
-				<div class="counters-item">
-					<i class="fa fa-dollar fa-2x"></i>
-					<strong data-to="32">0</strong>
-					<!-- Set Your Number here. i,e. data-to="56" -->
-					<p>
-						Million in Budgets
-					</p>
-				</div>
-				<div class="counters-item">
-					<i class="fa fa-flag fa-2x"></i>
-					<strong data-to="8">0</strong>
-					<!-- Set Your Number here. i,e. data-to="56" -->
-					<p>
-						Years of Experience
-					</p>
-				</div>
-				<div class="counters-item">
-					<i class="fa fa-trophy fa-2x"></i>
-					<strong data-to="22">0</strong>
-					<!-- Set Your Number here. i,e. data-to="56" -->
-					<p>
-						Projects Completed
-					</p>
-				</div>
-				<div class="counters-item">
-					<i class="fa fa-thumbs-up fa-2x"></i>
-					<strong data-to="1">0</strong>
-					<!-- Set Your Number here. i,e. data-to="56" -->
-					<p>
-						Amazing Adventure
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row services">
-		<div class="col-md-4">
-			<!-- Service -->
-			<div class="services-box new-line item_left">
-				<h4>Project Management</h4>
-				<div class="services-box-icon">
-					<i class="fa fa-line-chart fa-3x"></i>
-				</div>
-				<div class="service-box-info">
-					<p>
-						I have completed more than 22 projects with combined budgets of $32.3 million over the last eight years.  
-					</p>
-				</div>
-			</div>
-			<!-- End Service -->
-		</div>
-		<div class="col-md-4">
-			<!-- Service -->
-			<div class="services-box new-line item_bottom">
-				<h4>Program Management</h4>
-				<div class="services-box-icon">
-					<i class="fa fa-pie-chart fa-3x"></i>
-				</div>
-				<div class="service-box-info">
-					<p>
-						My current Program holds in excess of 60 customer facing projects, covering both Government and Private sectors. 
-					</p>
-				</div>
-			</div>
-			<!-- End Service -->
-		</div>
-		<div class="col-md-4 clearfix">
-			<!-- Service -->
-			<div class="services-box new-line item_right">
-				<h4>Customer Service</h4>
-				<div class="services-box-icon">
-					<i class="fa fa-link fa-3x"></i>
-				</div>
-				<div class="service-box-info">
-					<p>
-						Fortune 500 customers and multi-million dollar accounts make up the majority of my customer service experience.   
-					</p>
-				</div>
-			</div>
-			<!-- End Service -->
-		</div>
-	</div>                      
-</div>
+                <p>
+                    Hello, I'm a Program and Project Manager from Pittsburgh, PA, currently living in Southern
+                    California. I hold a PMP certification, am a Certified Scrum Product Owner, a Certified Scrum Master
+                    and have additional certificates for negotiation and Six Sigma.
+                </p>
+
+                <p>
+                    I currently work at Esri, where I am a Project Manager responsible for the Custom Training Program
+                    and large strategic corporate projects. My current projects include a complete rebuild and
+                    rebranding of our software training platform, a digital motivation project designed to increase
+                    customer engagement through gamification and numerous customized training solution projects tailored
+                    to match customer needs.
+                </p>
+
+                <p>
+                    I enjoy being responsible for mentoring project coordinators, participating in the evaluation and
+                    interview process of potiential team members and learning from those around me. I strongly believe
+                    that you get out of life what you put into it, so I always strive to better myself and those around
+                    me.
+
+                <p class="text-right">
+
+                </p>
+            </div>
+            <div class="col-md-4 item_bottom">
+                <ul class="fa-ul">
+                    <li><i class="fa fa-li fa-mobile"></i><strong>Phone</strong> : +1 805-242-6767</li>
+                    <li><i class="fa fa-li fa-envelope-o"></i><strong>Email</strong> : rboros24@gmail.com</li>
+                    <li><i class="fa fa-li fa-globe"></i><strong>Website</strong> : www.robboros.com</li>
+                    <li><i class="fa fa-li fa-home"></i><strong>Address</strong> : Beaumont, CA 92223</li>
+                </ul>
+
+                <div class="number-counters text-center new-line">
+                    <div class="counters-item">
+                        <i class="fa fa-dollar fa-2x"></i>
+                        <strong data-to="32">0</strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>
+                            Million in Budgets
+                        </p>
+                    </div>
+                    <div class="counters-item">
+                        <i class="fa fa-flag fa-2x"></i>
+                        <strong data-to="8">0</strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>
+                            Years of Experience
+                        </p>
+                    </div>
+                    <div class="counters-item">
+                        <i class="fa fa-trophy fa-2x"></i>
+                        <strong data-to="22">0</strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>
+                            Projects Completed
+                        </p>
+                    </div>
+                    <div class="counters-item">
+                        <i class="fa fa-thumbs-up fa-2x"></i>
+                        <strong data-to="1">0</strong>
+                        <!-- Set Your Number here. i,e. data-to="56" -->
+                        <p>
+                            Amazing Adventure
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row services">
+            <div class="col-md-4  col-sm-12 col-xs-10">
+                <!-- Service -->
+                <div class="services-box new-line item_left">
+                    <h4>Project Management</h4>
+
+                    <div class="services-box-icon">
+                        <i class="fa fa-line-chart fa-3x"></i>
+                    </div>
+                    <div class="service-box-info">
+                        <p>
+                            I have completed more than 22 projects with combined budgets of $32.3 million over the last
+                            eight years.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Service -->
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-10">
+                <!-- Service -->
+                <div class="services-box new-line item_bottom">
+                    <h4>Program Management</h4>
+
+                    <div class="services-box-icon">
+                        <i class="fa fa-pie-chart fa-3x"></i>
+                    </div>
+                    <div class="service-box-info">
+                        <p>
+                            My current Program holds in excess of 60 customer facing projects, covering both Government
+                            and Private sectors.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Service -->
+            </div>
+            <div class="col-md-4  col-sm-12 col-xs-10">
+                <!-- Service -->
+                <div class="services-box new-line item_right">
+                    <h4>Customer Service</h4>
+
+                    <div class="services-box-icon">
+                        <i class="fa fa-link fa-3x"></i>
+                    </div>
+                    <div class="service-box-info">
+                        <p>
+                            Fortune 500 customers and multi-million dollar accounts make up the majority of my customer
+                            service experience.
+                        </p>
+                    </div>
+                </div>
+                <!-- End Service -->
+            </div>
+        </div>
+    </div>
 </section>
 <!-- End About Section -->
 
 <!-- Process Section -->
 <section id="process" class="section-content bg3">
-<div class="container">
-<div class="row">
-	<!-- Section title -->
-	<div class="section-title item_bottom text-center">
-		<div>
-			<span class="fa fa-cogs fa-2x"></span>
-		</div>
-		<h1 class="white">My <span>Process</span></h1>
-	</div>
-	<!-- End Section title -->
- 
- <ol class="process-flow list-unstyled">
-						<li class="active">
-							<div class="process-node active">
-								<i class="fa fa-comments"></i>
-							</div>
-							<h4>Discussion</h4>
-							<p>Let's have a real discussion about what you truely want to acheive. Tell me your goals, your vision and honest expectations. </p>
-							<div class="line">
-							  <div class="progress"></div>
-							</div>
-						</li>
-						<li class="active">
-							<div class="process-node active">
-								<i class="fa fa-lightbulb-o"></i>
-							</div>
-							<h4>Ideas</h4>
-							<p>Next, we will look at all of the options, even those outside the box.  Together we will analyze and review the ideas and develop the strongest plan to achieve your goals.</p>
-							<div class="line">
-								<div class="progress"></div>
-							</div>
-						</li>
-						<li class="active">
-							<div class="process-node active">
-								<i class="fa fa-desktop"></i>
-							</div>
-							<h4>Implementation</h4>
-							<p>Put the plan into action! Utilize every resource effectively and efficently, never losing sight of quality.</p>
-							<div class="line">
-								<div class="progress"></div>
-							</div>
-						</li>
-						<li class="active">
-							<div class="process-node active">
-								<i class="fa fa-flash"></i>
-							</div>
-							<h4>Review</h4>
-							<p>Together we will verify that the widget you wanted is the widget you will receive, through iterative reviews and an agile environment. </p>
-							<div class="line">
-								<div class="progress"></div>
-							</div>
-						</li>
-						<li class="active">
-							<div class="process-node active">
-								<i class="fa fa-rocket"></i>
-							</div>
-							<h4>Deliver</h4>
-							<p>Time to "go live," close the project and celebrate the project success and the success of the team!  </p>
-						</li>
-					</ol>
- </div>
-          </div>
-        </section>
-<!-- End Process Section -->                        
+    <div class="container">
+        <div class="row">
+            <!-- Section title -->
+            <div class="section-title item_bottom text-center">
+                <div>
+                    <span class="fa fa-cogs fa-2x"></span>
+                </div>
+                <h1 class="white">My <span>Process</span></h1>
+            </div>
+            <!-- End Section title -->
+
+            <ol class="process-flow list-unstyled">
+                <li class="active">
+                    <div class="process-node active">
+                        <i class="fa fa-comments"></i>
+                    </div>
+                    <h4>Discussion</h4>
+
+                    <p>Let's have a real discussion about what you truely want to acheive. Tell me your goals, your
+                        vision and honest expectations. </p>
+
+                    <div class="line">
+                        <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="process-node active">
+                        <i class="fa fa-lightbulb-o"></i>
+                    </div>
+                    <h4>Ideas</h4>
+
+                    <p>Next, we will look at all of the options, even those outside the box. Together we will analyze
+                        and review the ideas and develop the strongest plan to achieve your goals.</p>
+
+                    <div class="line">
+                        <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="process-node active">
+                        <i class="fa fa-desktop"></i>
+                    </div>
+                    <h4>Implementation</h4>
+
+                    <p>Put the plan into action! Utilize every resource effectively and efficently, never losing sight
+                        of quality.</p>
+
+                    <div class="line">
+                        <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="process-node active">
+                        <i class="fa fa-flash"></i>
+                    </div>
+                    <h4>Review</h4>
+
+                    <p>Together we will verify that the widget you wanted is the widget you will receive, through
+                        iterative reviews and an agile environment. </p>
+
+                    <div class="line">
+                        <div class="progress"></div>
+                    </div>
+                </li>
+                <li class="active">
+                    <div class="process-node active">
+                        <i class="fa fa-rocket"></i>
+                    </div>
+                    <h4>Deliver</h4>
+
+                    <p>Time to "go live," close the project and celebrate the project success and the success of the
+                        team! </p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+<!-- End Process Section -->
 
 <!-- Clients Section -->
-        <section id="clients" class="clients parallax" style="background-image: url(images/clients.jpg)">
-          <div class="parallax-overlay">
-          <div class="container">
-           <div class="row">
-		<!-- Section title -->
-		<div class="section-title item_bottom text-center">
-			<div>
-				<span class="fa fa-users fa-2x"></span>
-			</div>
-			<h1 class="white">My <span>Clients</span></h1>
-		</div>
-		<!-- End Section title -->
-	</div>
-            
-          
-				                     <div class="row new-line item_fade_in">
-              <h4 class="white">Some of my truely <strong>AWESOME CLIENTS</strong></h4>
-              <div class="carrousel-container">
-                <div id="left_scroll"><a href="#"></a></div>
-                <div id="carousel_inner">
-                  <ul class="clearfix" id="carousel_ul">
-		<li><span><img src=images/clients/arng_sized.png alt="Army National Guard Bureau"></span></li>
-		<li><span><img src=images/clients/ecolab_sized.png alt="Ecolab"></span></li>
-		<li><span><img src=images/clients/unitednations_sized.png alt="United Nations"></span></li>
-		<li><span><img src=images/clients/nike_sized.png alt="Nike"></span></li>
-		<li><span><img src=images/clients/pfizer_sized.png alt="Pfizer"></span></li>
-		<li><span><img src=images/clients/exxon_sized.png alt="ExxonMobile"></span></li>
-		<li><span><img src=images/clients/ftc_sized.png alt="Federal Trade Commission"></span></li>
-		<li><span><img src=images/clients/northrop_grumman_sized.png alt="Northrop Grumman"></span></li>
-		<li><span><img src=images/clients/nswg_sized.png alt="Naval Special Warfare Group"></span></li>
-		<li><span><img src=images/clients/riotinto_sized.png alt="RioTinto"></span></li>
-		<li><span><img src=images/clients/shell_sized.png alt="Shell"></span></li>
-		<li><span><img src=images/clients/sprint_sized.png alt="Sprint"></span></li>
-		
-                  </ul>
+<section id="clients" class="clients parallax" style="background-image: url(images/clients.jpg)">
+    <div class="parallax-overlay">
+        <div class="container">
+            <div class="row">
+                <!-- Section title -->
+                <div class="section-title item_bottom text-center">
+                    <div>
+                        <span class="fa fa-users fa-2x"></span>
+                    </div>
+                    <h1 class="white">My <span>Clients</span></h1>
                 </div>
-                <div id="right_scroll"><a href="#"></a></div>
-                    <input type="hidden" id="hidden_auto_slide_seconds" value=-2 />
-                  </div>
+                <!-- End Section title -->
             </div>
-          </div>
-          </div>
-        </section>
+
+
+            <div class="row new-line item_fade_in">
+                <h4 class="white">Some of my truely <strong>AWESOME CLIENTS</strong></h4>
+
+                <div class="carrousel-container">
+                    <div id="left_scroll"><a href="#"></a></div>
+                    <div id="carousel_inner">
+                        <ul class="clearfix" id="carousel_ul">
+                            <li><span><img src=images/clients/arng_sized.png alt="Army National Guard Bureau"></span>
+                            </li>
+                            <li><span><img src=images/clients/ecolab_sized.png alt="Ecolab"></span></li>
+                            <li><span><img src=images/clients/unitednations_sized.png alt="United Nations"></span></li>
+                            <li><span><img src=images/clients/nike_sized.png alt="Nike"></span></li>
+                            <li><span><img src=images/clients/pfizer_sized.png alt="Pfizer"></span></li>
+                            <li><span><img src=images/clients/exxon_sized.png alt="ExxonMobile"></span></li>
+                            <li><span><img src=images/clients/ftc_sized.png alt="Federal Trade Commission"></span></li>
+                            <li><span><img src=images/clients/northrop_grumman_sized.png alt="Northrop Grumman"></span>
+                            </li>
+                            <li><span><img src=images/clients/nswg_sized.png alt="Naval Special Warfare Group"></span>
+                            </li>
+                            <li><span><img src=images/clients/riotinto_sized.png alt="RioTinto"></span></li>
+                            <li><span><img src=images/clients/shell_sized.png alt="Shell"></span></li>
+                            <li><span><img src=images/clients/sprint_sized.png alt="Sprint"></span></li>
+
+                        </ul>
+                    </div>
+                    <div id="right_scroll"><a href="#"></a></div>
+                    <input type="hidden" id="hidden_auto_slide_seconds" value=-2/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- End Clients Section -->
 
 <!-- Skill Section -->
 <section id="skill" class="section-content bg2">
-<div class="container">
-	<div class="row">
-		<!-- Section Title -->
-		<div class="section-title item_bottom text-center">
-			<div>
-				<span class="fa fa-bar-chart-o fa-2x"></span>
-			</div>
-			<h1>My <span>Skills</span></h1>
-		</div>
-		<!-- End Section Title -->
-	</div>
-	<div class="row text-center item_bottom">
-		<div class="col-md-2">
-			<div class="chart" data-percent="90">
-			<span class="percent">90</span>
-			<h4>MS Project</h4>
-			<p>
-				I have used MS Project for six years, currently using MS Project 2013.
-			</p>
-			</div>
-		</div>
-		<div class="col-md-2 ">
-			<div class="chart" data-percent="95">
-			<span class="percent">95</span>
-			<h4>MS Office</h4>
-			<p>
-				MS Word, PowerPoint and Excel are tools I use daily.  
-			</p>
-			</div>
-		</div>
-		<div class="col-md-2">
-			<div class="chart" data-percent="75">
-			<span class="percent">75</span>
-			<h4>MS Project Server</h4>
-			<p>
-				I use MS Project Server for resource leveling with a shared resource pool.
-			</p>
-			</div>
-		</div>
-		<div class="col-md-2">
-			<div class="chart" data-percent="70">
-			<span class="percent">70</span>
-			<h4>SAP</h4>
-			<p>
-				SAP is used to monitor project labor, expenses and recievables on my projects.  
-			</p>
-			</div>
-		</div>
-		<div class="col-md-2">
-			<div class="chart" data-percent="70">
-			<span class="percent">70</span>
-			<h4>Sharepoint</h4>
-			<p>
-				Sharepoint is used daily for both program and project management.
-			</p>
-			</div>
-		</div>
-		<div class="col-md-2">
-			<div class="chart" data-percent="55">
-			<span class="percent">55</span>
-			<h4>SalesForce</h4>
-			<p>
-				I utilize SalesForce to manage customer accounts during projects. 
-			</p>
-			</div>
-		</div>
-	</div>
-	<div class="row new-line item_bottom">
-		<div class="col-md-6">
-			<ul class="skillBar">
-				<li>
-				<div class="skillBg">
-					<span data-width="90"><strong>Initiation 90%</strong></span>
-				</div>
-				</li>
-				<li>
-				<div class="skillBg">
-					<span data-width="95"><strong>Planning 95%</strong></span>
-				</div>
-				</li>
-				<li>
-				<div class="skillBg">
-					<span data-width="99"><strong>Execution 99%</strong></span>
-				</div>
-				</li>
-			</ul>
-		</div>
-		<div class="col-md-6">
-			<ul class="skillBar">
-				<li>
-				<div class="skillBg">
-					<span data-width="85"><strong>Monitor & Control 85%</strong></span>
-				</div>
-				</li>
-				<li>
-				<div class="skillBg">
-					<span data-width="90"><strong>Close 90%</strong></span>
-				</div>
-				</li>
-				<li>
-				<div class="skillBg">
-					<span data-width="99"><strong>Stakeholder Management 99%</strong></span>
-				</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<!-- skills end -->
-</div>
+    <div class="container">
+        <div class="row">
+            <!-- Section Title -->
+            <div class="section-title item_bottom text-center">
+                <div>
+                    <span class="fa fa-bar-chart-o fa-2x"></span>
+                </div>
+                <h1>My <span>Skills</span></h1>
+            </div>
+            <!-- End Section Title -->
+        </div>
+        <div class="row text-center item_bottom">
+            <div class="col-md-2">
+                <div class="chart" data-percent="90">
+                    <span class="percent">90</span>
+                    <h4>MS Project</h4>
+
+                    <p>
+                        I have used MS Project for six years, currently using MS Project 2013.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2 ">
+                <div class="chart" data-percent="95">
+                    <span class="percent">95</span>
+                    <h4>MS Office</h4>
+
+                    <p>
+                        MS Word, PowerPoint and Excel are tools I use daily.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="chart" data-percent="75">
+                    <span class="percent">75</span>
+                    <h4>MS Project Server</h4>
+
+                    <p>
+                        I use MS Project Server for resource leveling with a shared resource pool.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="chart" data-percent="70">
+                    <span class="percent">70</span>
+                    <h4>SAP</h4>
+
+                    <p>
+                        SAP is used to monitor project labor, expenses and recievables on my projects.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="chart" data-percent="70">
+                    <span class="percent">70</span>
+                    <h4>Sharepoint</h4>
+
+                    <p>
+                        Sharepoint is used daily for both program and project management.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="chart" data-percent="55">
+                    <span class="percent">55</span>
+                    <h4>SalesForce</h4>
+
+                    <p>
+                        I utilize SalesForce to manage customer accounts during projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row new-line item_bottom">
+            <div class="col-md-6">
+                <ul class="skillBar">
+                    <li>
+                        <div class="skillBg">
+                            <span data-width="90"><strong>Initiation 90%</strong></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillBg">
+                            <span data-width="95"><strong>Planning 95%</strong></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillBg">
+                            <span data-width="99"><strong>Execution 99%</strong></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="skillBar">
+                    <li>
+                        <div class="skillBg">
+                            <span data-width="85"><strong>Monitor & Control 85%</strong></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillBg">
+                            <span data-width="90"><strong>Close 90%</strong></span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="skillBg">
+                            <span data-width="99"><strong>Stakeholder Management 99%</strong></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- skills end -->
+    </div>
 </section>
 <!-- End Skill Section -->
 
 
 <div class="fullwidth-section bg-callout">
-	<div class="container">
-		<div class="col-md-12 text-center item_bottom">
-			<h1 class="white padBottom killMargin">I am open to <strong>Opportunities</strong></h1>
-			<a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Hire Me</a>&nbsp;&nbsp;<a class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i> Download Resume</a>
-		</div>
-	</div>
+    <div class="container">
+        <div class="col-md-12 text-center item_bottom">
+            <h1 class="white padBottom killMargin">I am open to <strong>Opportunities</strong></h1>
+            <a href="#contact" class="scroll btn btn-trans btn-border-w btn-large">Hire Me</a>&nbsp;&nbsp;<a
+                class="btn btn-primary btn-lg" href="docs/robert-boros-resume-2015.pdf"><i class="fa fa-download"></i>
+            Download Resume</a>
+        </div>
+    </div>
 </div>
 
 
 <!-- Resume Section -->
 <section id="experience" class="section-content bg2">
-<div class="container">
-	<div class="row">
-		<!-- Section title -->
-		<div class="section-title item_bottom text-center">
-			<div>
-				<span class="fa fa-book fa-2x"></span>
-			</div>
-			<h1>My <span>Resume</span></h1>
-		</div>
-		<!-- End Section title -->
-	</div>
-	<div class="row">
-		<ul class="timeline list-unstyled">
-			<!-- History Year -->
-			<li class="title">Present</li>
-			<li class="note item_left">
-			<img src=images/companylogos/esri_sized.png alt="Esri">
-			<h4>Esri</h4>
-			<h5>Project Manager</h5>
-			<p class="desc">
-				 Manage large customer facing and strategic corporate projects using Agile methodologies.  Manage program level initiatives to improve processes, margins, efficiencies and best practices. Mentor Project Coordinators on project management principles and projects. 
-			</p>
+    <div class="container">
+        <div class="row">
+            <!-- Section title -->
+            <div class="section-title item_bottom text-center">
+                <div>
+                    <span class="fa fa-book fa-2x"></span>
+                </div>
+                <h1>My <span>Resume</span></h1>
+            </div>
+            <!-- End Section title -->
+        </div>
+        <div class="row">
+            <ul class="timeline list-unstyled">
+                <!-- History Year -->
+                <li class="title">Present</li>
+                <li class="note item_left">
+                    <img src=images/companylogos/esri_sized.png alt="Esri">
+                    <h4>Esri</h4>
+                    <h5>Project Manager</h5>
+
+                    <p class="desc">
+                        Manage large customer facing and strategic corporate projects using Agile methodologies. Manage
+                        program level initiatives to improve processes, margins, efficiencies and best practices. Mentor
+                        Project Coordinators on project management principles and projects.
+                    </p>
 			<span class="date">
 			SEPT 2013 to Present</span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			
-			<li class="note item_right">
-			<img src=images/companylogos/hp_sized.png alt="Hewlett Packard">
-			<h4>Hewlett-Packard</h4>
-			<h5>Project Manager, International</h5>
-			<p class="desc">
-				 Managed the planning, relocation and installation through testing activities, in an Agile environment, of a data center consolidation (DCC) project to reduce the Pfizer infrastructure from 19 data centers to four over the course of 23 sprints.
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+                <li class="note item_right">
+                    <img src=images/companylogos/hp_sized.png alt="Hewlett Packard">
+                    <h4>Hewlett-Packard</h4>
+                    <h5>Project Manager, International</h5>
+
+                    <p class="desc">
+                        Managed the planning, relocation and installation through testing activities, in an Agile
+                        environment, of a data center consolidation (DCC) project to reduce the Pfizer infrastructure
+                        from 19 data centers to four over the course of 23 sprints.
+                    </p>
 			<span class="date">
 			JAN 2012 to FEB 2013 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			
-			<li class="note item_left">
-			<img src=images/companylogos/verizonwireless_sized.png alt="Verizon Wireless">
-			<h4>Verizon Wireless</h4>
-			<h5>Business and Government Operations Coordinator</h5>
-			<p class="desc">
-				Managed multi-million dollar accounts, coordinating specialized teams to successfully meet every need of the customer.  
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+                <li class="note item_left">
+                    <img src=images/companylogos/verizonwireless_sized.png alt="Verizon Wireless">
+                    <h4>Verizon Wireless</h4>
+                    <h5>Business and Government Operations Coordinator</h5>
+
+                    <p class="desc">
+                        Managed multi-million dollar accounts, coordinating specialized teams to successfully meet every
+                        need of the customer.
+                    </p>
 			<span class="date">
 			DEC 2008 to JAN 2012 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-						
-			<li class="note item_right">
-			<h4>Remlab Inc.</h4>
-			<h5>Director of Marketing</h5>
-			<p class="desc">
-				Managed the day to day operations of the Marketing Department, facilitating the creation of new products and services to increase the company portfolio.
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+                <li class="note item_right">
+                    <h4>Remlab Inc.</h4>
+                    <h5>Director of Marketing</h5>
+
+                    <p class="desc">
+                        Managed the day to day operations of the Marketing Department, facilitating the creation of new
+                        products and services to increase the company portfolio.
+                    </p>
 			<span class="date">
 			JAN 2003 to NOV 2008 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			
-			
-			<!-- Education -->
-			<li class="title">Education</li>
-			<li class="note item_left">
-			<img src=images/schools/sru_sized.png alt="Esri">
-			<h4>Bachelor of Business Administration -- Marketing</h4>
-			<h5>Slippery Rock University</h5>
-			<p class="desc">
-				 Slippery Rock, PA
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+
+                <!-- Education -->
+                <li class="title">Education</li>
+                <li class="note item_left">
+                    <img src=images/schools/sru_sized.png alt="Esri">
+                    <h4>Bachelor of Business Administration -- Marketing</h4>
+                    <h5>Slippery Rock University</h5>
+
+                    <p class="desc">
+                        Slippery Rock, PA
+                    </p>
 			<span class="date">
 			2005 - 2007 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			<li class="note item_right">
-			<h4>Associate of Business Administration</h4>
-			<h5>Butler County Community College</h5>
-			<p class="desc">
-				 Butler, PA
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+                <li class="note item_right">
+                    <h4>Associate of Business Administration</h4>
+                    <h5>Butler County Community College</h5>
+
+                    <p class="desc">
+                        Butler, PA
+                    </p>
 			<span class="date">
 			2003 - 2005 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-						
-						
-						<!-- Certifications -->
-			<li class="title">Certificates</li>
-			<li class="note item_left">
-			<h4>Project Management Professional® - PMP</h4>
-			<img src=images/schools/pmi.png alt="Project Management Institute">
-			<p class="desc">
-				 This is the most important industry-recognized certification for project managers. Globally recognized and demanded, the PMP® demonstrates that you have the experience, education and competency to lead and direct projects.
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+
+                <!-- Certifications -->
+                <li class="title">Certificates</li>
+                <li class="note item_left">
+                    <h4>Project Management Professional® - PMP</h4>
+                    <img src=images/schools/pmi.png alt="Project Management Institute">
+
+                    <p class="desc">
+                        This is the most important industry-recognized certification for project managers. Globally
+                        recognized and demanded, the PMP® demonstrates that you have the experience, education and
+                        competency to lead and direct projects.
+                    </p>
 			<span class="date">
 			2014 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			
-			<li class="note item_right">
-			<h4>Certified Scrum Product Owner® - CSPO</h4>
-			<img src=images/schools/sa.png alt="Scrum Alliance">
-			<p class="desc">
-				 Certified Scrum Product Owner® professionals are taught the Scrum terminology, practices, and principles that enable them to fulfill the role of Product Owner on a Scrum team. CSPOs are typically the individuals who are closest to the "business side" of the project. They are charged by the organization to "get the product out" and are expected to do the best possible job of satisfying all the stakeholders. CSPOs maintain the product backlog and ensure that everyone knows the priorities.
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+                <li class="note item_right">
+                    <h4>Certified Scrum Product Owner® - CSPO</h4>
+                    <img src=images/schools/sa.png alt="Scrum Alliance">
+
+                    <p class="desc">
+                        Certified Scrum Product Owner® professionals are taught the Scrum terminology, practices, and
+                        principles that enable them to fulfill the role of Product Owner on a Scrum team. CSPOs are
+                        typically the individuals who are closest to the "business side" of the project. They are
+                        charged by the organization to "get the product out" and are expected to do the best possible
+                        job of satisfying all the stakeholders. CSPOs maintain the product backlog and ensure that
+                        everyone knows the priorities.
+                    </p>
 			<span class="date">
 			2014 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			
-			<li class="note item_left">
-			<h4>Six Sigma Green Belt</h4>
-			<img src=images/schools/villanova_sized.png alt="Villanova">
-			<p class="desc">
-				This course helps develop critical skills required to serve on project teams. It also teaches how to use many of the proven Six Sigma problem-solving methods and statistical tools to contribute to the success of an organization, including processes for collecting and analyzing data, and leading and executing process-level improvement projects.
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+                <li class="note item_left">
+                    <h4>Six Sigma Green Belt</h4>
+                    <img src=images/schools/villanova_sized.png alt="Villanova">
+
+                    <p class="desc">
+                        This course helps develop critical skills required to serve on project teams. It also teaches
+                        how to use many of the proven Six Sigma problem-solving methods and statistical tools to
+                        contribute to the success of an organization, including processes for collecting and analyzing
+                        data, and leading and executing process-level improvement projects.
+                    </p>
 			<span class="date">
 			2014 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-					
-			
-			<li class="note item_right">
-			<h4>Certified ScrumMaster® - CSM</h4>
-			<img src=images/schools/sa.png alt="Scrum Alliance">
-			<p class="desc">
-				 This certification enables me and my project team to properly use Scrum, increasing the likelihood of the project's overall success. It helps me understand Scrum values, practices, and applications and provides me with a level of knowledge and expertise above and beyond that of typical project managers. CSMs act as "servant leaders," helping the rest of the Scrum team work together and learn the Scrum framework. 
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+
+                <li class="note item_right">
+                    <h4>Certified ScrumMaster® - CSM</h4>
+                    <img src=images/schools/sa.png alt="Scrum Alliance">
+
+                    <p class="desc">
+                        This certification enables me and my project team to properly use Scrum, increasing the
+                        likelihood of the project's overall success. It helps me understand Scrum values, practices, and
+                        applications and provides me with a level of knowledge and expertise above and beyond that of
+                        typical project managers. CSMs act as "servant leaders," helping the rest of the Scrum team work
+                        together and learn the Scrum framework.
+                    </p>
 			<span class="date">
 			2013 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			
-			
-			<li class="note item_left">
-			<h4>Master Certification in IS/IT Project Management</h4>
-			<img src=images/schools/villanova_sized.png alt="Villanova">
-			<p class="desc">
-				 Earning a Master Certificate in IS/IT Project Management demonstrates my commitment to my profession and proves to corporate managers that I've become an expert in my field. I've learned to lead improvement initiatives that result in measurable growth in return on investment, sales, customer satisfaction and retention, market share, speed-to-market, employee satisfaction and employee motivation. 
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+
+                <li class="note item_left">
+                    <h4>Master Certification in IS/IT Project Management</h4>
+                    <img src=images/schools/villanova_sized.png alt="Villanova">
+
+                    <p class="desc">
+                        Earning a Master Certificate in IS/IT Project Management demonstrates my commitment to my
+                        profession and proves to corporate managers that I've become an expert in my field. I've learned
+                        to lead improvement initiatives that result in measurable growth in return on investment, sales,
+                        customer satisfaction and retention, market share, speed-to-market, employee satisfaction and
+                        employee motivation.
+                    </p>
 			<span class="date">
 			2011 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			
-			
-			<li class="note item_right">
-			<h4>Advanced Negotiation</h4>
-			<img src=images/schools/notredame_sized.png alt="Notre Dame">
-			<p class="desc">
-				An Advanced Negotiation certification gives me the ability to show proficiency in how changes in the negotiation context impact the negotiation process and taught me optimal strategies for working one-on-one, in groups and at a distance.   This course also teaches how to work more effectively with multiple groups and across cultures.   
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+
+                <li class="note item_right">
+                    <h4>Advanced Negotiation</h4>
+                    <img src=images/schools/notredame_sized.png alt="Notre Dame">
+
+                    <p class="desc">
+                        An Advanced Negotiation certification gives me the ability to show proficiency in how changes in
+                        the negotiation context impact the negotiation process and taught me optimal strategies for
+                        working one-on-one, in groups and at a distance. This course also teaches how to work more
+                        effectively with multiple groups and across cultures.
+                    </p>
 			<span class="date">
 			2011 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			
-			
-			<li class="note item_left">
-			<h4>Negotiation Essentials</h4>
-			<img src=images/schools/notredame_sized.png alt="Notre Dame">
-			<p class="desc">
-				Negotiation Essentials has helped me, as a professional, build a solid understanding of competitive interactions. This course has shown me how to develop the tactics, strategies and interpersonal skills necessary for success when competing over resources, direction or ideas.
-			</p>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+
+
+                <li class="note item_left">
+                    <h4>Negotiation Essentials</h4>
+                    <img src=images/schools/notredame_sized.png alt="Notre Dame">
+
+                    <p class="desc">
+                        Negotiation Essentials has helped me, as a professional, build a solid understanding of
+                        competitive interactions. This course has shown me how to develop the tactics, strategies and
+                        interpersonal skills necessary for success when competing over resources, direction or ideas.
+                    </p>
 			<span class="date">
 			2011 </span>
-			<span class="arrow fa fa-play"></span>
-			</li>
-			<!-- Start icon -->
-			<li class="start fa fa-bookmark"></li>
-			<li class="clear"></li>
-		</ul>
-	</div>
-</div>
+                    <span class="arrow fa fa-play"></span>
+                </li>
+                <!-- Start icon -->
+                <li class="start fa fa-bookmark"></li>
+                <li class="clear"></li>
+            </ul>
+        </div>
+    </div>
 </section>
 <!-- End Experience Timeline Section -->
 
 <div class="fullwidth-section bg-callout">
-	<div class="container">
-		<div class="col-md-12 text-center item_bottom">
-			<h1 class="white padBottom killMargin">view my <strong>Certifications</strong></h1>
-			<img src=images/certifications/pmp.png alt="PMP">
-			<img src=images/certifications/csmseal.png alt="CSM">
-			<img src=images/certifications/csposeal.png alt="CSPO">
-
-
-		</div>
-	</div>
+    <div class="container">
+        <div class="col-md-12 text-center item_bottom">
+            <h1 class="white padBottom killMargin">view my <strong>Certifications</strong></h1>
+            <a href="docs/robert-boros-pmpcertification.pdf"><img src=images/certifications/pmp.png alt="PMP"/></a>
+            <a href="docs/robert-boros-csmcert.pdf"><img src=images/certifications/csmseal.png alt="CSM"/></a>
+            <a href="docs/robert-boros-cspocert.pdf"><img src=images/certifications/csposeal.png alt="CSPO"/></a>
+        </div>
+    </div>
 </div>
 
 
 <!-- Contact Section -->
 <section id="contact" class="section-content bg2">
-<div class="container">
-	<div class="row">
-		<!-- Section title -->
-		<div class="section-title item_bottom text-center">
-			<div>
-				<span class="fa fa-envelope fa-2x"></span>
-			</div>
-			<h1>Get in <span>touch</span></h1>
-		</div>
-		<!-- End Section title -->
-	</div>
-	<div class="row item_fade_in">
-		<div class="col-md-6 col-md-offset-3 text-center contact-block">
-			<!-- Contact Details -->
-			<i class="fa fa-map-marker fa-3x"></i>
-			<p>
-				1685 Jade Moon Lane <br>
-				Beaumont, CA 92223
-			</p>
-			<p>
-				+1 805-242-6767 <br>
-				rboros24@gmail.com <br/>
-			</p>
-			<!-- End Contact Details -->
-			<!-- Social Icon -->
-			<div class="social-icon">
-				
-				<a href="www.linkedin.com/in/robboros"><i class="fa fa-linkedin-square fa-3x"></i></a>
+    <div class="container">
+        <div class="row">
+            <!-- Section title -->
+            <div class="section-title item_bottom text-center">
+                <div>
+                    <span class="fa fa-envelope fa-2x"></span>
+                </div>
+                <h1>Get in <span>touch</span></h1>
+            </div>
+            <!-- End Section title -->
+        </div>
+        <div class="row item_fade_in">
+            <div class="col-md-6 col-md-offset-3 text-center contact-block">
+                <!-- Contact Details -->
+                <i class="fa fa-map-marker fa-3x"></i>
 
-			</div>
-			<!-- End Social Icon -->
-		</div>
-	</div>
-	<div class="row item_fade_in">
-		<h4 class="text-center">Drop me a Line</h4>
-		<div class="col-md-6 col-md-offset-3">
-			<div class="form-respond text-center">
-			</div>
-			<form method="post" name="contactform" id="contactform" class="form validate item_bottom" role="form">
-				<div class="form-group">
-					<input type="text" name="name" id="name" class="form-control required" placeholder="Name">
-				</div>
-				<div class="form-group">
-					<input type="email" name="email" id="email" class="form-control required email" placeholder="Email">
-				</div>
-				<div class="form-group">
-					<textarea name="message" id="message" class="form-control input-lg required" rows="9" placeholder="Enter Message"></textarea>
-				</div>
-				<div class="form-group text-center">
-					<input type="submit" id="contactForm_submit" class="btn btn-trans btn-border btn-full" value="Submit">
-				</div>
-				<input type="hidden" name="subject" value="Contact from your site">
-			</form>
-		</div>
-	</div>
-	<!-- End form contact -->
-</div>
+                <p>
+                    +1 805-242-6767 <br>
+                    rboros24@gmail.com <br/>
+                </p>
+                <!-- End Contact Details -->
+                <!-- Social Icon -->
+                <div class="social-icon">
+
+                    <a href="http://linkedin.com/in/robboros" target="_blank"><i
+                            class="fa fa-linkedin-square fa-3x"></i></a>
+
+                </div>
+                <!-- End Social Icon -->
+            </div>
+        </div>
+        <div class="row item_fade_in">
+            <h4 class="text-center">Drop me a Line</h4>
+
+            <div class="col-md-6 col-md-offset-3">
+                <div class="form-respond text-center">
+                </div>
+                <form method="post" name="contactform" id="contactform" class="form validate item_bottom" role="form">
+                    <div class="form-group">
+                        <input type="text" name="name" id="name" class="form-control required" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" class="form-control required email"
+                               placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" class="form-control input-lg required" rows="9"
+                                  placeholder="Enter Message"></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                        <input type="submit" id="contactForm_submit" class="btn btn-trans btn-border btn-full"
+                               value="Submit">
+                    </div>
+                    <input type="hidden" name="subject" value="Contact from your site">
+                </form>
+            </div>
+        </div>
+        <!-- End form contact -->
+    </div>
 </section>
 <!-- End Contact Section -->
 <!-- Google maps -->
@@ -757,12 +846,12 @@
 </div>
 <!-- End Google maps -->
 <footer class="text-center">
-<!-- Footer Text -->
-	<div class="container text-center item_top">
+    <!-- Footer Text -->
+    <div class="container text-center item_top">
 
-		&copy; Copyright 2014. All Rights Reserved.
-	</div>
-<!-- End Footer Text -->
+        &copy; Copyright 2014. All Rights Reserved.
+    </div>
+    <!-- End Footer Text -->
 </footer>
 <!-- Back to top -->
 <a href="#" id="back-top"><i class="fa fa-angle-up fa-2x"></i></a>
@@ -788,7 +877,7 @@
 <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
 <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="js/gmap-settings.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <!-- Js Library -->
