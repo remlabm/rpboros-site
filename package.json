@@ -1,0 +1,24 @@
+{
+  "name": "rpboros-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remlabm/rpboros-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/remlabm/rpboros-site/issues"
+  },
+  "homepage": "https://github.com/remlabm/rpboros-site",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-connect": "^2.2.0",
+    "gulp-livereload": "^3.6.0"
+  }
+}
